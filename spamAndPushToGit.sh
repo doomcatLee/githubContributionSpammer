@@ -1,7 +1,7 @@
 
 cd ~/Desktop/githubSpammer;
 
-date=`date '+%Y_%m_%d__%H_%M_%S'`;
+date=`date '+%Y-%m-%dT%H:%M:%S'`;
 sudo touch $date.txt;
 git add .;
 git commit -m "spamming atm";
